@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'FEComentarios';
+  items = Array<string>();
+  
+  constructor() {
+    this.items.push("Edwin");
+    this.items.push("Patricia");
+
+   }
 }
